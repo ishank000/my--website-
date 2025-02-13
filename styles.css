@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #08240b;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #08240b;
+    
+}
+section{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Adjust for the element's size */
+        width: 1061px;
+        height: 755px;
+        background-color: #ffffff;
+        border-radius: 50px;
+      }
+      
+#Heading{
+    background-color: none;
+    position: absolute;
+    width: 329px;
+    height: 72px;
+    top: 100px;
+    left: 120px;
+
+}
+h1{
+    font-size:40px;
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    top: 20%    ;
+}
+#form{
+    background-color: none;
+    height:439px;
+    width: 280px;
+    position: absolute;
+    left: 100px;
+    top: 270px;
+}
+#opening{
+    position: relative;
+    display: flex;
+    justify-content: center ;
+}
+#random{
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    position: relative;
+    align-items: center;
+    left: 25%;
+}
+form{
+    position: relative;
+    left: 25%;
+}
+#hr{
+    position: relative;
+    left: 1px;
+}
+.apple{
+font-size: 14px;
+display: flex;
+justify-content: center;
+align-items:center;
+height: 38px;
+width: 246px;
+border-radius: 20px;
+margin: 20px;
+position:relative;
+padding-right: 70px;
+}
+
+.fill{
+        margin:10px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 38px;
+        width: 246px;
+        border-radius: 20px;
+        left: 10px;
+        position: relative;
+        border: solid #dbdbdc;
+        }
+
+#username{
+    margin-top: 20px;
+    padding: 4%;
+}
+p{
+    left: 25%;
+    position: relative;
+}
+#red{
+    background-color: #fb9b19;
+    border-color: #fb9b19;
+    color: #ffffff;
+    border: solid;
+}
+#app{
+    border: solid #dbdbdc;
+    background-color: #fff;
+}
+.wighta{
+    font-weight: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+#sign{
+    text-decoration: none;
+}
+#image{
+    background-color: violet;
+    left: 46%;
+    top: 16px;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    width: 554px;
+    height: 720px;
+    background-image: url(https://cdn.dribbble.com/userupload/4388080/file/original-24f694be0975e9d66597cfe4a3dfa508.png?resize=1200x900&vertical=center);
+    size: ;
+}
+#pass{
+    padding: 4%;
+}
